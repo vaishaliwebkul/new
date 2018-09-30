@@ -1,11 +1,11 @@
 language: php
 php:
--5.5
--5.6
--7.0
+- 5.5
+- 5.6
+- 7.0
 
 before_script:
--composer install --no-interaction
+- composer install --no-interaction
 
 script:
- -new/hello.html
+ - new/hello.html
